@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Waktu Solat Hari Ini"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutSubuh">
+        <TextView
+            android:text="Subuh :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblSubuh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblSubuhWaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutZohor">
+        <TextView
+            android:text="Zohor :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblZohor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblZohorWaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutAsar">
+        <TextView
+            android:text="Asar :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblAsar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblAsarWaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutMaghrib">
+        <TextView
+            android:text="Maghrib :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblMaghrib"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblMaghribWaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutIsyak">
+        <TextView
+            android:text="Isyak :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblIsyak"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="00:00"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lblIsyakWaktu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <Button
+        android:text="Papar sekarang!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+</LinearLayout>
